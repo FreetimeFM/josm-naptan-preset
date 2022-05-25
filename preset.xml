@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets
+    author="FreetimeFM" version="1.0"
+    shortdescription="Adds NaPTAN Information."
+    description="Add NaPTAN Information to public access points."
+    link="https://wiki.openstreetmap.org/wiki/NaPTAN"
+>
+    <group name="NaPTAN Tags">
+        <item name="Bus Stop" type="node">
+            <link href="https://wiki.openstreetmap.org/wiki/NaPTAN" />
+	    <key key="public_transport" value="platform" />
+	    <key key="highway" value="bus_stop" />
+	    <text key="naptan:AtcoCode" text="ATCO Code" default="" />
+            <text key="naptan:NaptanCode" text="Naptan Code" default="" />
+            <space/>
+            <text key="naptan:CommonName" text="Common Name" default="" />
+            <space/>
+            <text key="naptan:Indicator" text="Indicator" default="" />
+            <space/>
+            <check key="naptan:verified" text="Verified?" default="off" use_last_as_default="true" />
+        </item>
+    </group>
+</presets>
