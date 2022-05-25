@@ -16,10 +16,12 @@
 
             <text key="name" text="Name" />
             <text key="naptan:CommonName" text="Common Name" />
-            <space/>
-            <text key="naptan:Indicator" text="Indicator" />
-            <space/>
-            <check key="naptan:verified" text="Verified?" default="off" use_last_as_default="true" />
+            <label text="The Common Name is pretty much the same as Name." />
+            <space />
+
+            <combo key="naptan:Indicator" text="Indicator" values="at,opp,near,adj" editable="true" />
+            <label text="Custom values are allowed such as 'Stop 1'." />
+            <space />
         </item>
     </group>
 </presets>
