@@ -13,7 +13,8 @@
             <key key="highway" value="bus_stop" />
             <text key="naptan:AtcoCode" text="ATCO Code" />
             <text key="naptan:NaptanCode" text="Naptan Code" />
-            <space/>
+
+            <text key="name" text="Name" />
             <text key="naptan:CommonName" text="Common Name" />
             <space/>
             <text key="naptan:Indicator" text="Indicator" />
