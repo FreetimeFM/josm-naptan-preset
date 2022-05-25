@@ -30,22 +30,25 @@
             <check key="naptan:verified" text="Has this stop been verified/surveyed?" default="off" />
             <item_separator />
 
+            <!-- Adapted from tagging presets for Platform and Bus Stop from default_presets.xml -->
+            <optional>
                 <check key="public_transport" text="Set tag public_transport=platform?" value_on="platform" default="on" />
                 <check key="highway" text="Set tag highway=bus_stop?" value_on="bus_stop" default="on" />
 
-            <checkgroup columns="2">
-                <check key="bench" text="Bench" />
-                <check key="shelter" text="Shelter" />
-            </checkgroup>
-            <check key="bin" text="Waste Basket/Trash Can" />
-            <check key="passenger_information_display" text="Passenger information display" />
-            <space />
+                <checkgroup columns="2">
+                    <check key="bench" text="Bench" />
+                    <check key="shelter" text="Shelter" />
+                </checkgroup>
+                <check key="bin" text="Waste Basket/Trash Can" />
+                <check key="passenger_information_display" text="Passenger information display" />
+                <space />
 
-            <text key="route_ref" text="Route references" />
-            <space />
+                <text key="route_ref" text="Route references" />
+                <space />
 
-            <combo key="wheelchair" text="Wheelchairs" values="yes,designated,limited,no" values_sort="false" />
-            <combo key="tactile_paving" text="Tactile Paving" values="yes,no,incorrect" />
+                <combo key="wheelchair" text="Wheelchairs" values="yes,designated,limited,no" values_sort="false" />
+                <combo key="tactile_paving" text="Tactile Paving" values="yes,no,incorrect" />
+            </optional>
         </item>
     </group>
 </presets>
