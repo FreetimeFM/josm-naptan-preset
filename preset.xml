@@ -31,7 +31,24 @@
             <space />
 
             <check key="naptan:verified" text="Has this stop been verified/surveyed?" default="off" />
+            <item_separator />
 
+            <label text="Other tags for this bus stop." />
+            <space />
+
+            <checkgroup columns="2">
+                <check key="bench" text="Bench" />
+                <check key="shelter" text="Shelter" />
+            </checkgroup>
+            <check key="bin" text="Waste Basket/Trash Can" />
+            <check key="passenger_information_display" text="Passenger information display" />
+            <space />
+
+            <text key="route_ref" text="Route references" />
+            <space />
+
+            <combo key="wheelchair" text="Wheelchairs" values="yes,designated,limited,no" values_sort="false" />
+            <combo key="tactile_paving" text="Tactile Paving" values="yes,no,incorrect" />
         </item>
     </group>
 </presets>
