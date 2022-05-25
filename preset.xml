@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets
     xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-    author="FreetimeFM" version="2.0"
+    author="FreetimeFM" version="2.0_2022-05-25"
     shortdescription="Adds NaPTAN Information. Currently in Beta."
     description="[Beta] Add NaPTAN Information to public access points. If you found an error in this preset, please contact www.osm.org/user/Mastrick_Mapper."
     link="https://github.com/FreetimeFM/josm-naptan-preset"
