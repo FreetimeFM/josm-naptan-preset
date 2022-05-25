@@ -10,9 +10,6 @@
         <item name="Bus Stop" type="node" preset-name-label="true">
             <!-- Links to wiki page -->
             <link href="https://wiki.openstreetmap.org/wiki/NaPTAN" />
-            <!-- Sets tags to ensure node is a bus stop. -->
-            <key key="public_transport" value="platform" />
-            <key key="highway" value="bus_stop" />
 
             <label text="Adds NaPTAN information to a bus stop. All the keys below have a dedicated page in the OSM Wiki." />
             <space />
@@ -33,8 +30,8 @@
             <check key="naptan:verified" text="Has this stop been verified/surveyed?" default="off" />
             <item_separator />
 
-            <label text="Other tags for this bus stop." />
-            <space />
+                <check key="public_transport" text="Set tag public_transport=platform?" value_on="platform" default="on" />
+                <check key="highway" text="Set tag highway=bus_stop?" value_on="bus_stop" default="on" />
 
             <checkgroup columns="2">
                 <check key="bench" text="Bench" />
