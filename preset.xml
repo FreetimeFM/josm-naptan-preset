@@ -2,9 +2,9 @@
 <presets
     xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
     author="FreetimeFM" version="2.0"
-    shortdescription="Adds NaPTAN Information."
-    description="Add NaPTAN Information to public access points."
-    link="https://wiki.openstreetmap.org/wiki/NaPTAN"
+    shortdescription="Adds NaPTAN Information. Currently in Beta."
+    description="[Beta] Add NaPTAN Information to public access points. If you found an error in this preset, please contact www.osm.org/user/Mastrick_Mapper."
+    link="https://github.com/FreetimeFM/josm-naptan-preset"
 >
     <group name="NaPTAN Tags">
         <item name="Bus Stop" type="node" preset-name-label="true">
