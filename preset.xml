@@ -8,14 +8,14 @@
     <group name="NaPTAN Tags">
         <item name="Bus Stop" type="node">
             <link href="https://wiki.openstreetmap.org/wiki/NaPTAN" />
-	    <key key="public_transport" value="platform" />
-	    <key key="highway" value="bus_stop" />
-	    <text key="naptan:AtcoCode" text="ATCO Code" default="" />
-            <text key="naptan:NaptanCode" text="Naptan Code" default="" />
+            <key key="public_transport" value="platform" />
+            <key key="highway" value="bus_stop" />
+            <text key="naptan:AtcoCode" text="ATCO Code" />
+            <text key="naptan:NaptanCode" text="Naptan Code" />
             <space/>
-            <text key="naptan:CommonName" text="Common Name" default="" />
+            <text key="naptan:CommonName" text="Common Name" />
             <space/>
-            <text key="naptan:Indicator" text="Indicator" default="" />
+            <text key="naptan:Indicator" text="Indicator" />
             <space/>
             <check key="naptan:verified" text="Verified?" default="off" use_last_as_default="true" />
         </item>
