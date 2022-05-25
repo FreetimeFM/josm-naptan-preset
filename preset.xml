@@ -14,19 +14,20 @@
             <label text="Adds NaPTAN information to a bus stop. All the keys below have a dedicated page in the OSM Wiki." />
             <space />
 
-            <text key="naptan:AtcoCode" text="ATCO Code" />
-            <text key="naptan:NaptanCode" text="Naptan Code" />
+            <text key="naptan:AtcoCode" text="ATCO Code" match="key" />
+            <text key="naptan:NaptanCode" text="Naptan Code" match="key" />
             <space />
 
             <text key="name" text="Name" />
-            <text key="naptan:CommonName" text="Common Name" />
+            <text key="naptan:CommonName" text="Common Name" match="key" />
             <label text="The Common Name is pretty much the same as Name." />
             <space />
 
-            <combo key="naptan:Indicator" text="Indicator" values="at,opp,near,adj" editable="true" />
+            <combo key="naptan:Indicator" text="Indicator" values="at,opp,near,adj" editable="true" match="key" />
             <label text="Custom values are allowed such as 'Stop 1'." />
             <space />
 
+            <check key="naptan:verified" text="Has this stop been verified/surveyed?" default="off" match="key" />
             <item_separator />
 
             <label text="Set node as?" />
