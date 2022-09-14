@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets
     xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-    author="FreetimeFM" version="2.4"
+    author="FreetimeFM"
     shortdescription="NaPTAN Information [Beta]"
     description="[Beta] Add NaPTAN Information to public access points. If you found an error in this preset, please contact www.osm.org/user/Mastrick_Mapper."
     link="https://github.com/FreetimeFM/josm-naptan-preset"
@@ -35,9 +35,12 @@
             <label text="Set node as?" />
             <checkgroup columns="2">
                 <check key="public_transport" text="public_transport = platform" value_on="platform" disable_off="true" default="on" />
+                <check key="bus" text="bus = yes" value_on="yes" disable_off="true" default="on" />
+            </checkgroup>
+            <checkgroup columns="1">
                 <check key="highway" text="highway = bus_stop" value_on="bus_stop" disable_off="true" default="on" />
             </checkgroup>
-            <label text="Both tags are recommended, however, please see the Wiki for 'Tag:public_transport=platform' and 'Tag:highway=bus_stop' to see which tag applies to this stop." />
+            <label text="'highway=bus_stop' is recommended. 'public_transport=platform' and 'bus=yes' are commonly used together. Please see the Wiki to learn which applies to this stop." />
             <item_separator />
 
             <!-- Section for adding additional tags to the stop -->
