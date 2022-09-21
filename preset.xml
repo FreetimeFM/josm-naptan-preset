@@ -7,7 +7,7 @@
     link="https://github.com/FreetimeFM/josm-naptan-preset"
 >
     <group name="NaPTAN Tags">
-        <item name="Bus Stop" type="node" preset-name-label="true">
+        <item name="Bus Stop" type="node,closedway" preset-name-label="true">
             <!-- Links to wiki page -->
             <link href="https://wiki.openstreetmap.org/wiki/NaPTAN" />
 
@@ -40,7 +40,7 @@
             <checkgroup columns="1">
                 <check key="highway" text="highway = bus_stop" value_on="bus_stop" disable_off="true" default="on" />
             </checkgroup>
-            <label text="'highway=bus_stop' is recommended. 'public_transport=platform' and 'bus=yes' are commonly used together. Please see the Wiki to learn which applies to this stop." />
+            <label text="'highway=bus_stop' is recommended but cannot be applied to closed ways. 'public_transport=platform' and 'bus=yes' are commonly used together. Please see the Wiki to learn which applies to this stop." />
             <item_separator />
 
             <!-- Section for adding additional tags to the stop -->
